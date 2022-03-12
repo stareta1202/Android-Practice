@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_receive">
+
+    <fragment
+        android:id="@+id/navigation_receive"
+        android:name="com.yongjun.www.bottomnavigation.ui.receive.ReceiveFragment"
+        android:label="@string/title_receive"
+        tools:layout="@layout/receive_fragment"/>
+    <fragment
+        android:id="@+id/navigation_move"
+        android:name="com.yongjun.www.bottomnavigation.ui.move.MoveFragment"
+        android:label="@string/title_move"
+        tools:layout="@layout/move_fragment"/>
+    <fragment
+        android:id="@+id/navigation_prepare"
+        android:name="com.yongjun.www.bottomnavigation.ui.prepare.PrepareFragment"
+        android:label="@string/title_prepare"/>
+
+</navigation>
